@@ -1,0 +1,145 @@
+.navbar{
+    width: 100%;
+}
+
+.intro-body{
+    background-color: rgb(43, 43, 43);
+    border-radius: 30px;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.fa{
+    text-decoration: none;
+    margin: 4px 19px;
+    font-size: x-large;
+    color: black;
+    margin-left: 100px;
+}
+
+.fa-code{
+    margin-left: 500px;
+}
+
+.resume{
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+.fa:hover{
+    color: crimson;
+    font-size: xx-large;
+}
+
+
+.photo{
+    display: block;
+    float: left;
+    border-radius: 50%;
+    height: 290px;
+    width: 290px;
+    margin: 70px 160px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+}
+
+.photo:hover{
+    border-spacing: 2px;
+    box-shadow: 0 4px 8px 0 rgb(44, 238, 252), 2px 6px 20px 0 rgb(44, 238, 252);
+}
+.intro{
+    display: inline-block;
+}
+.name{
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    margin-top: 180px;
+}
+
+p{
+    font-size: larger;
+}
+
+hr{
+    border: 2px solid black;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+}
+
+.about{
+    font-weight: 500;
+    margin: 10px 30px;
+    text-decoration: underline;
+}
+
+h2{
+    margin-left: 40px;
+}
+
+#aboutp{
+    margin-left: 50px;
+}
+
+.skills{
+    margin-left: 40px;
+}
+
+.progress{
+    margin-left: 50px;
+    width: 100%;
+}
+
+.about-me ul li{
+    display: inline-block;
+    margin: 10px 40px;
+}
+
+
+#aboutexp{
+    margin-left: 50px;
+    color: rgb(255, 0, 0);
+    font-weight: 400;
+}
+
+
+.exp li{
+    margin-left: 55px;
+    margin-top: 2px;
+}
+
+.projects li{
+    margin-left: 55px;
+    margin-top: 2px;
+}
+
+.project{
+    margin-left: 60px;
+}
+
+.image li{
+    display: inline-block;
+    float: right;
+    margin-top: 0;
+    margin-left: 5px;
+}
+
+.image img{
+    width: 50%;
+    height: 50%;
+}
+
+.tech-body img{
+    border: 2px solid rgba(37, 34, 34, 0.1);
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    padding: 0;
+}
+
+.tech-body img:hover{
+    cursor: default;
+    box-shadow: 0 4px 8px 0 rgb(12, 72, 128), 2px 6px 20px 0 rgb(12, 72, 128);
+}
