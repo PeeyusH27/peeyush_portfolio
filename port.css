@@ -1,12 +1,20 @@
 .navbar{
     width: 100%;
 }
-
+body{
+    width: 100%;
+}
+.navbar-body{
+    display: inline-block ;
+    align-self: center;
+    text-align: center;
+}
 .intro-body{
     background-color: rgb(43, 43, 43);
     border-radius: 30px;
     padding: 0;
     margin-top: 2px;
+    text-align: center;
 }
 
 .fa{
@@ -14,11 +22,11 @@
     margin: 4px 19px;
     font-size: x-large;
     color: black;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .fa-code{
-    margin-left: 500px;
+    margin-left: 90px;
 }
 
 .resume{
@@ -29,7 +37,6 @@
 }
 .fa:hover{
     color: crimson;
-    font-size: xx-large;
 }
 
 
@@ -39,7 +46,7 @@
     border-radius: 50%;
     height: 290px;
     width: 290px;
-    margin: 70px 160px;
+    margin: 50px 100px;
     border-style: solid;
     border-color: rgb(255, 255, 255);
 }
