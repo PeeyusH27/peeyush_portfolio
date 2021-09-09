@@ -1,8 +1,8 @@
-*{
+/* *{
     margin-left: 5px;
     margin-right: 5px;
 }
-
+ */
 .navbar{
     width: 100%;
 }
@@ -107,11 +107,6 @@ hr{
     margin: 10px 25px;
     font-weight: 700;
     font-size: large;
-    background-color: rgb(173, 222, 255);
-    padding: 2px 4px;
-    height: 30px;
-    width: auto;
-    border-radius: 7px;
 }
 
 h2{
