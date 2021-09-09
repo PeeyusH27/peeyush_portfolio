@@ -1,3 +1,8 @@
+*{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
 .navbar{
     width: 100%;
 }
@@ -14,12 +19,19 @@ body{
     padding: 2px;
     margin-top: 80px;
     text-align: center;
-    width: fit-content;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.13);
+}
+.introh{
+    font-size: 60px;
+    color: #000000;
+    text-shadow: 2px 2px rgba(219, 35, 35, 0.637);
 }
 
 .intro-text{
     text-align: center;
     margin-top: 0;
+    font-size:large;
 }
 
 .fa{
@@ -48,8 +60,8 @@ body{
 .photo{
     display: block;
     border-radius: 50%;
-    height: 320px;
-    width: 320px;
+    height: 270px;
+    width: 270px;
     margin: 20px;
     border-style: solid;
     border-color: rgba(0, 0, 0, 0.658);
@@ -62,6 +74,10 @@ body{
 .intro{
     display: inline-block;
 }
+.skills{
+    text-decoration: none;
+}
+
 .name{
     font-weight: 600;
     font-size: xx-large;
@@ -75,32 +91,42 @@ p{
 
 hr{
     border: 2px solid black;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .about{
     font-weight: 500;
     margin: 10px 30px;
+    margin-top: 50px;
     text-decoration: underline;
+}
+
+.skills ul li{
+    display: inline-block;
+    margin: 10px 25px;
+    font-weight: 700;
+    font-size: large;
+    background-color: rgb(173, 222, 255);
+    padding: 2px 4px;
+    height: 30px;
+    width: auto;
+    border-radius: 7px;
 }
 
 h2{
     margin-left: 40px;
 }
 
+#visitor{
+    text-align: center;
+    text-shadow: 2px 1px #ffffff;
+}
 #aboutp{
     margin-left: 50px;
 }
 
-.skills{
-    margin-left: 40px;
-}
-
-.progress{
-    margin-left: 30px;
-    width: 100%;
-}
-
-.about-me ul li{
+.icons ul li{
     display: inline-block;
     margin: 10px 40px;
 }
@@ -139,13 +165,19 @@ h2{
     height: 70%;
 }
 
+.tech-body ul li{
+    display: flex;
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+}
 .tech-body img{
     border: 2px solid rgba(37, 34, 34, 0.1);
     border-radius: 20px;
+    margin-left: 75px;
+    margin-right: 50px;
     height: 50%;
     width: 50%;
-    display:flex;
-    display: inline;
 }
 
 .tech-body img:hover{
